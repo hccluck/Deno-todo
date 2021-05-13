@@ -1,0 +1,12 @@
+# Log files
+debug.log*
+
+*.exe
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
