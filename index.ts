@@ -1,7 +1,7 @@
 import { Application } from './deps.ts';
 import { APP_HOST, APP_PORT } from './config.ts';
 import router from './routing.ts';
-import notFound from './handlers/notFound.ts';
+import notFound from './middlewares/notFound.ts';
 import errorMiddleware from './middlewares/error.ts';
 
 const app = new Application();
